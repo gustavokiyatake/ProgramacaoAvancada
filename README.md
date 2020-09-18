@@ -14,4 +14,4 @@ Leaf - representa o objeto folha na composição. A folha não tem nenhum compon
 Composite - define o comportamento para componentes que possuam componentes-filho, armazena componentes-filho e implementa funções relacionadas aos componentes-filho na interface do componente. 
 Client - opera os objetos da composição através da interface do componente.
 ## Exemplo de implmentação
-Link - 
+Link - https://github.com/gustavokiyatake/ProgramacaoAvancada/tree/master/Composite/src
