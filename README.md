@@ -13,4 +13,5 @@ Component - declara a interface para objetos nessa composição, implementa o co
 Leaf - representa o objeto folha na composição. A folha não tem nenhum componente-filho, define o comportamento para objetos primitivos na composição e herda todos os métodos de component, porém só implementa de fato os que lhe interessam – neste caso, o método operation, nos outros são inseridos exceções que serão geradas em tempo de execução.
 Composite - define o comportamento para componentes que possuam componentes-filho, armazena componentes-filho e implementa funções relacionadas aos componentes-filho na interface do componente. 
 Client - opera os objetos da composição através da interface do componente.
-
+## Exemplo de implmentação
+Link - 
