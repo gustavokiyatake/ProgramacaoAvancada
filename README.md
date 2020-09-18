@@ -9,9 +9,13 @@ Nesse sistema é possível criar arquivos concretos (vídeos, textos, imagens, e
 ## Estrutura 
 ![composite](https://user-images.githubusercontent.com/43156684/93627923-19308700-f9bc-11ea-8b6c-31108cf18c55.gif)
 ## Participantes
-Component - declara a interface para objetos nessa composição, implementa o comportamento padrão para a interface comum à todas as classes e declara uma interface para acessar os componentes-filho. 
-Leaf - representa o objeto folha na composição. A folha não tem nenhum componente-filho, define o comportamento para objetos primitivos na composição e herda todos os métodos de component, porém só implementa de fato os que lhe interessam – neste caso, o método operation, nos outros são inseridos exceções que serão geradas em tempo de execução.
-Composite - define o comportamento para componentes que possuam componentes-filho, armazena componentes-filho e implementa funções relacionadas aos componentes-filho na interface do componente. 
-Client - opera os objetos da composição através da interface do componente.
+### Component
+Declara a interface para objetos nessa composição, implementa o comportamento padrão para a interface comum à todas as classes e declara uma interface para acessar os componentes-filho. 
+### Leaf 
+Representa o objeto folha na composição. A folha não tem nenhum componente-filho, define o comportamento para objetos primitivos na composição e herda todos os métodos de component, porém só implementa de fato os que lhe interessam, neste caso, o método operation, nos outros são inseridos exceções que serão geradas em tempo de execução.
+### Composite 
+Define o comportamento para componentes que possuam componentes-filho, armazena componentes-filho e implementa funções relacionadas aos componentes-filho na interface do componente. 
+### Client 
+Opera os objetos da composição através da interface do componente.
 ## Exemplo de implmentação
 Link - https://github.com/gustavokiyatake/ProgramacaoAvancada/tree/master/Composite/src
