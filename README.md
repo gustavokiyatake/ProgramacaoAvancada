@@ -1,5 +1,5 @@
 # Composite Pattern
-## Obejtivo
+## Objetivo
 Utilizado para representar um objeto formado pela composição de objetos similares. Este conjunto de objetos pressupõe uma mesma hierarquia de classes a que ele pertence. Tal padrão é, normalmente, utilizado para representar listas recorrentes, ou recursivas, de elementos;
 ## Motivação
 A intenção do padrão Composite é compor objetos em estruturas de árvore para representar hierarquia partes-todo;
