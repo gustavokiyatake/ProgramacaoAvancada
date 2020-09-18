@@ -1,1 +1,2 @@
 # ProgramacaoAvancada
+##Composite Pattern
